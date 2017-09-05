@@ -39,8 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ICMS.cs" />
+    <Compile Include="Entities\IRRF.cs" />
+    <Compile Include="Entities\ISS.cs" />
+    <Compile Include="Entities\Orcamento.cs" />
     <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Interfaces\IImposto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\CalculadorDeImpostos.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
